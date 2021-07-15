@@ -1,0 +1,70 @@
+body {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	justify-content: center;
+	-webkit-justify-content: center;
+	background-image: url(Rose-Petals.svg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+img {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	min-width: 400px;
+	min-height: 256px;
+	width: 25%;
+	height: 20%;
+}
+
+.divClass{
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	color: dimgrey;
+}
+
+#thirdDiv {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	height: 600px;
+	width: 500px;
+	background-color: rgba(40, 117, 28, 0.30);
+	padding: 50px;
+	border-color: rgba(40, 117, 28, 0.45);
+	border-width: 5px;
+	border-style: ridge;
+}
+
+#spanId {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-flex-direction: column;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	font-size: 18px;
+	margin: 50px;
+}

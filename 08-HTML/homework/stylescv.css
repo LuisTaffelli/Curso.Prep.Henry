@@ -1,0 +1,114 @@
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-weight: 400;
+	font-size: 1.3125rem;
+	line-height: 1.6;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+	margin: 0;
+}
+
+h1,
+h2,
+h3 {
+	color: #824936;
+	font-family: Times, "Times New Roman", Georgia, serif;
+	font-weight: 900;
+	line-height: 1;
+}
+
+h3,
+p {
+	margin-bottom: 3em;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.texto-centrado {
+	text-align: center;
+}
+
+.texto-izq {
+	text-align: left;
+}
+
+header,
+section {
+	padding: 3rem 0;
+}
+
+@media (min-width: 40em){
+	header,
+	section {
+		padding: 7rem 0;
+	}
+}
+
+.container {
+	margin-inline: auto;
+	width: min(90%, 70.5rem);
+}
+
+.container--narrow {
+	max-width: 35rem;
+}
+
+.split--interno {
+	display: inline-block;
+	display: -webkit-inline-block;
+}
+
+.split{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	-webkit-flex-direction: column;
+}
+
+@media (min-width: 40em) {
+	.split {
+		flex-direction: row;
+		-webkit-flex-direction: row;
+	}
+
+	.split > * {
+		flex-basis: 100%;
+		-webkit-flex-basis: 100%
+	}
+
+	.split * + * {
+		margin-left: 2em;
+	}
+}
+
+.bg-claro {
+	background-color: #f3eed9;
+}
+.bg-oscuro {
+	color: #FFF;
+	background-color: #222C2A;
+}
+.bg-acentuado {
+	color: #FFF;
+	background-color: #824936;
+}
+
+.bg-acentuado h3,
+.bg-oscuro h3 {
+	color: #f3eed9;
+}
